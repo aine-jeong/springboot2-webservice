@@ -32,6 +32,10 @@ dependencies {
     compile('com.h2database:h2')
     //머스테치
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    //스프링 시큐리티
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    //spring-session-jdbc
+    compile('org.springframework.session:spring-session-jdbc')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
